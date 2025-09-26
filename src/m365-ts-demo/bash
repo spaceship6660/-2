@@ -1,0 +1,7 @@
+git init
+echo "venv/" > .gitignore
+git add .
+git commit -m "feat: add Microsoft Graph SDK Python demo"
+git branch -M main
+git remote add origin https://github.com/<你的用户名>/m365-py-demo.git
+git push -u origin main
